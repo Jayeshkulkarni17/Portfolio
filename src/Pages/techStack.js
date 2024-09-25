@@ -6,10 +6,6 @@ import css from '../images/vscode-icons_file-type-css.svg';
 import js from '../images/vscode-icons_file-type-js-official.svg';
 import ts from '../projectImg/typescript.png'
 import react from '../images/logos_react.svg';
-import bootstrap from '../projectImg/bootstrap.jpeg';
-import Jquery from '../projectImg/query.png';
-import Postgresql from '../projectImg/PSQL.png';
-import PHP from '../projectImg/php.png'
 import java from '../projectImg/Java-Logo.jpg'
 import git from '../images/logos_git-icon.svg';
 import mysql from '../images/mysql.png';
