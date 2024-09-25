@@ -6,7 +6,6 @@ import Home from "./Pages/home";
 import Projects from "./Pages/projects";
 import TechStack from "./Pages/techStack";
 import Experience from "./Pages/experiance";
-// import Achievement from "./Pages/Achivement";
 
 function App() {
   return (
@@ -16,12 +15,10 @@ function App() {
       <About />
       <TechStack />
       <Projects />
-      {/* <Achievement /> */}
       <Experience />
       <Contact />
     </>
   );
 }
-
 
 export default App;
