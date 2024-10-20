@@ -1,22 +1,22 @@
-import React from 'react';
-// import './experience.css';
-import '../Pages/experiance.css'
+import React from "react";
+import "../Pages/experiance.css";
 
 const Experience = () => {
   const experiences = [
     {
-      company: 'BR Coder',
-      role: 'React Native Developer Intern',
-      duration: 'Aug 2024 - Present',
-      description: 'Implement frontend and backend Application development tasks, mastering React Native,FireBase,TypeScript,JavaScript, HTML and CSS.'
+      company: "Nikqik Technologies",
+      role: "Software Developer Intern",
+      duration: "Oct 2024 - Present",
+      description:
+        "Developing a nikqik technologies product,working on NextJS, AWS, MongoDB, JavaScript",
     },
     {
-      company: 'Ray B2B',
-      role: 'Web Developer Intern',
-      duration: 'Jan 2024 - Mar 2024',
-      description: 'Executed critical frontend and backend development tasks, mastering React, HTML, CSS, JavaScript with 100% proficiency and improved user engagement metrics by 30%'
+      company: "BR Coder",
+      role: "React Native Developer Intern",
+      duration: "July 2024 - Sep 2024",
+      description:
+        "Developed frontend and backend of mobile application, master ReactNative , FireBase, TypeScript, JavaScript, HTML and CSS.",
     },
-    
   ];
 
   return (
