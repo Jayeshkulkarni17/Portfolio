@@ -1,4 +1,4 @@
-# Jayesh Kulkarni's Portfolio
+# Portfolio
 
 A modern, responsive developer portfolio built with React and Next.js, showcasing projects, skills, and experience. Features a beautiful dark/light mode toggle, animated sections, and a downloadable resume.
 
