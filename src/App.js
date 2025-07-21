@@ -6,6 +6,7 @@ import Home from "./Pages/home";
 import Projects from "./Pages/projects";
 import TechStack from "./Pages/techStack";
 import Experience from "./Pages/experiance";
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 }

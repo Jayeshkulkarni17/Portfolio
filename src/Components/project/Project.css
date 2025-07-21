@@ -4,7 +4,7 @@
     height: auto;
     width: 20vw;
     margin: 2% 0;
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
     border-radius: 5%;
     margin-bottom: 5vh;
@@ -24,7 +24,7 @@
 
 .project-heading{
     font-family: poppins-bold;
-    color: #000;
+    /* color: #000; */
     text-align: center;
 }
 

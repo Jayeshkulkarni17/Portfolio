@@ -49,6 +49,31 @@
     margin: 0 2% 1%;
 }
 
+.theme-toggle-btn {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1487cc 0%, #e70faa 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 9999;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+.theme-toggle-btn:hover {
+    background: linear-gradient(135deg, #e70faa 0%, #1487cc 100%);
+    color: #ffe066;
+    transform: scale(1.08);
+}
+
 @media only screen and (max-width: 600px) {
     .footer {
         height: 15vh;
@@ -72,5 +97,13 @@
 
     .footer-social-pc {
         display: none;
+    }
+
+    .theme-toggle-btn {
+        bottom: 16px;
+        right: 16px;
+        width: 48px;
+        height: 48px;
+        font-size: 1.5rem;
     }
 }

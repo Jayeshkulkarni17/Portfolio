@@ -34,7 +34,7 @@ const Home = () => {
                         </span>
                     </h2>
                     <br />
-                    <a className="btn shine" href="/src/Components/Resume/Jayesh_Kulkarni.pdf" download style={{ textDecoration: 'none' ,}}>&nbsp;&nbsp;Download Resume</a>
+                    <a className="btn shine" href="/Jayesh_Kulkarni_.pdf" download style={{ textDecoration: 'none' ,}}>&nbsp;&nbsp;Download Resume</a>
                 </div>
 
                 <div className='mobile'>
@@ -68,7 +68,7 @@ const Home = () => {
                 </div>
                 <div className="mobile">
                     <br />
-                <a className="btn shine" href="/src/Components/Resume/Jayesh_Kulkarni.pdf" download style={{ textDecoration: 'none' }}>Download Resume</a>
+                <a className="btn shine" href="/Jayesh_Kulkarni.pdf" download style={{ textDecoration: 'none' }}>Download Resume</a>
 
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from '../Components/Footer';
 import './Contact.css';
 
 const Contact = () => {
@@ -67,7 +66,6 @@ const Contact = () => {
                 </form> */}
             </div>
             
-            <Footer />
         </>
     );
 };

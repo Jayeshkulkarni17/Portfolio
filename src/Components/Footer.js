@@ -5,8 +5,11 @@ import { AiFillLinkedin, AiFillTwitterSquare } from 'react-icons/ai';
 // import { AiFillTwitterCircle } from 'react-icons/ai';
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillGithub } from 'react-icons/ai';
+import { useContext } from 'react';
+import { ThemeContext } from '../ThemeContext';
 
 const Footer = () => {
+    const { theme, toggleTheme } = useContext(ThemeContext);
     return (
         <>
             <div className='footer'>
@@ -69,6 +72,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* Floating Theme Toggle Button */}
+            <button
+                className='theme-toggle-btn'
+                onClick={toggleTheme}
+                aria-label='Toggle dark/light mode'
+            >
+                {theme === 'dark' ? '🌙' : '☀️'}
+            </button>
         </>
     );
 };
