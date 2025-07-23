@@ -6,13 +6,15 @@ const Contact = () => {
     <>
       <hr />
       <div id="contact">
-        <div className="contact-header">
-          <h1 className="bold centre">Contact Details</h1>
-          <a href="mailto:jayKulkarni17ab@gmail.com" className="heading1">
+        <h1 className="contact-title">Contact Details</h1>
+        <div className="text-wrapper">
+          <a href="mailto:jayKulkarni17ab@gmail.com" className="email-link">
             jayKulkarni17ab@gmail.com
           </a>
-          <br />
-          <span className="heading1">+91 9021029598</span>
+        </div>
+        <br />
+        <div class="text-wrapper">
+          <span class="gradient-text">+91 9021029598</span>
         </div>
       </div>
     </>

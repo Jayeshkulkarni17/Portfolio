@@ -1,12 +1,23 @@
-#myprojects{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#myprojects {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media only screen and (max-width: 600px){
-    #myprojects{
-        height: auto;
-    }
+.projects-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "poppins-bold";
+  text-align: center;
+  background: linear-gradient(90deg, #1487cc -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media only screen and (max-width: 600px) {
+  #myprojects {
+    height: auto;
+  }
 }
