@@ -13,5 +13,10 @@
 @media only screen and (max-width: 600px){
     .myprojects{
         grid-template-columns: repeat(1,minmax(0,1fr)); 
+        gap: 1.2em;
+    }
+    #projects{
+        width: 98vw;
+        margin: 2vw 0;
     }
 }

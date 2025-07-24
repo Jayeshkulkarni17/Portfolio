@@ -36,7 +36,7 @@ const About = () => {
                 }}
               />
             </p>
-            <h1 className="aboutMe-title">Education</h1>
+            <h1 className="Edu-title">Education</h1>
             <p className="margin-top">
               Bachelors of Engineering (Information Technology)
             </p>

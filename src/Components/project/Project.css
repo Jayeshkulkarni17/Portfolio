@@ -43,11 +43,20 @@
 
 @media only screen and (max-width: 600px){
     .project{
-        width: 100%;
-        margin-top: 10%;
+        width: 98vw;
+        margin-top: 6vw;
         margin-bottom: 0;
+        padding: 2vw 1vw;
     }
     .project-img img{
         width: 100%;
+        max-width: 350px;
+    }
+    .project-heading{
+        font-size: 1.1em;
+    }
+    .project-desc{
+        font-size: 0.95em;
+        padding: 2vw 1vw;
     }
 }

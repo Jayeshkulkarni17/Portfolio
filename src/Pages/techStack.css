@@ -51,16 +51,23 @@
 
 @media only screen and (max-width: 600px) {
   #techStack {
-    height: 50vh;
+    height: auto;
+    padding: 2vw 0;
   }
   .stackflex {
     width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2em;
   }
   .stack {
-    width: 10vw;
+    width: 16vw;
+    height: 16vw;
     padding: 4%;
+    max-width: 60px;
+    max-height: 60px;
   }
   .stackStyle {
-    font-size: 0.5em;
+    font-size: 0.7em;
+    margin-bottom: 10px;
   }
 }

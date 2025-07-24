@@ -19,5 +19,7 @@
 @media only screen and (max-width: 600px) {
   #myprojects {
     height: auto;
+    width: 98vw;
+    padding: 2vw 0;
   }
 }
